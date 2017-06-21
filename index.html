@@ -11,14 +11,18 @@
     <link rel="stylesheet" type="text/css" href="css/estilos.css"> <!-- otros estilos propios-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Festuca</title>
+    <title>Festuca - Productos sembrables</title>
   </head>
   <body class="grey lighten-3" id="color-body">
 
-  <div> <!--home principal -->
-  <img src="img/fondo-home.jpg" id="imagen-fondo">
-<!--   <a class="waves-effect waves-light btn-large" id="boton-home">Visita nuestra tienda</a> -->
+  <div > <!--home principal -->
 
+  <!-- la imagen del home queda comentada hasta acomodarla bien -->
+ <!--  <div> <img class="imagen-fondo" src="img/fondo-home.jpg"> </div> -->
+  
+  <div class="container center">
+ <a class="waves-effect waves-light btn-large" id="boton-home">Visita nuestra tienda</a>
+ </div>
 
     
   </div>
@@ -29,11 +33,11 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h4 class="black-text">¿Cómo funciona?</h4>
+          <h3 class="black-text">¿CÓMO FUNCIONA?</h3>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/banner.jpg" alt="Unsplashed background img 2"></div>
+    <div class="banner"><img src="img/banner.jpg"></div>
   </div>
 
 
@@ -75,45 +79,90 @@
   </div>
 
 
+  <!-- SECCION CON BANNER 2 . COMO FUNCIONA -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="black-text">¿QUIÉNES SOMOS?</h3>
+        </div>
+      </div>
+    </div>
+    <div class="banner"><img src="img/banner2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <!-- texto de seccion quienes somos -->
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <p class="center-align light">FESTUCA surgió en el 2015, buscando desacelerar la contaminación del medio ambiente, siguiendo el concepto de economía azul ¿Cómo? Con nuestros productos, que contienen semillas entre las capas de papel y pueden ser sembradas con solo arrancar una hoja. Comprá, usá, sembrá.</p>
+          <p class="center-align black-text"> ¿Cómo? </p>
+          <p class="center-align light"> Con nuestros productos, que contienen semillas entre las capas de papel y pueden ser sembradas con solo arrancar una hoja. Comprá, usá, sembrá.</p>
+          <p class="center-align black-text">Comprá, usá, sembrá.</p>
+        </div>
+
+        <div class="col s12 center">
+        <p class="center-align black-text ">“El concepto de basura no existe en la naturaleza”</p>
+        <p class="right-align black-text ">Gunter Pauli ("Economía azul")</p>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
 <!-- ACA ARRANCA EL FOOTER -->
           <footer class="page-footer brown darken-1" >
           <div class="container" >
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Contacto</h5>
+
+            <!--contacto -->
+              <div class="col s4 m6 l3 offset-s4">
+                <h6 class="white-text">CONTACTO</h6>
                    <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">telefono</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">email</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">sitio web</a></li>
+                  <li><a class="grey-text text-lighten-2" href="#!">TEL  +54 11 4545 5454</a></li>
+                  <li><a class="grey-text text-lighten-2" href="#!">@  INFO@FESTUCA.COM.AR</a></li>
+                  <li><a class="grey-text text-lighten-2" href="#!">WEB  WWW.FESTUCA.COM.AR</a></li>
                 </ul>
               </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Redes Sociales</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">facebook</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">instragram</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">pinterest</a></li>
-                </ul>
 
-                  <div class="row">
-                     <form class="col s12">
+              <!--redes sociales -->
+              <div class="col s4 m2 13 offset-s4">
+                <h6 class="white-text">REDES SOCIALES</h6>
+                <ul>
+                  <li><a class="grey-text text-lighten-2" href="https://www.facebook.com">/ FESTUCA.AR</a></li>
+                  <li><a class="grey-text text-lighten-2" href="https://www.instagram.com/">@ FESTUCA.AR</a></li>
+                  <li><a class="grey-text text-lighten-2" href="https://www.pinterest.com">/ FESTUCA.AR</a></li>
+                </ul>
+              </div>
+
+                <!--suscribite -->
+              
+                     <form class="col s4 m4 offset-s4">
                        <div class="row">
-                         <div class="input-field col s12">
+
+                         <div class="input-field">
+
                            <input id="email" type="email" class="validate">
-                           <label for="email" data-error="wrong" data-success="right">Email</label>
+
+                           <label for="email" data-error="wrong" data-success="Envio satisfactorio">Email</label>
                          </div>
                        </div>
                      </form>
                    </div>
 
-              </div>        
+                      
             </div>
 
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            © 2017 Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">festuca.com.ar</a>
             </div>
           </div>
         </footer>
