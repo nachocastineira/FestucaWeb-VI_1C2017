@@ -93,3 +93,11 @@ footer.page-footer {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+
+#containerVideo{
+  background-image: url(../img/fondo-home.jpg);
+}
+
+#contenedorVideo{
+  border-style: none;
+}
