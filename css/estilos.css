@@ -95,9 +95,13 @@ footer.page-footer {
 }
 
 #containerVideo{
-  background-image: url(../img/fondo-home.jpg);
+  background-image: url(../img/festucaFondo2.jpg);
 }
 
 #contenedorVideo{
+  border-style: none;
+}
+
+#frameVideo{
   border-style: none;
 }
