@@ -105,3 +105,25 @@ footer.page-footer {
 #frameVideo{
   border-style: none;
 }
+
+#comoFunciona  {
+  border-bottom: solid 20px;
+  border-color: #79511D;
+
+}
+
+#footer {
+  background-color: #79511D;
+}
+
+#contenedorFunciona {
+     position: absolute;
+     left: 15%;
+     top: 75%;
+     background-color: #79511D;
+     border-radius: 13px;
+}
+
+#bannerComoFunciona {
+  height: 50%;
+}

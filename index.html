@@ -4,21 +4,40 @@
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/materialize.css">
     <link rel="stylesheet" type="text/css" href="css/estilos.css"> <!-- otros estilos propios-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>Festuca - Productos sembrables</title>
   </head>
   <body class="grey lighten-3" id="color-body">
 
-  <div > <!--home principal -->
-
+  <!-- 
+   <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div> -->
+  </nav>
   <!-- la imagen del home queda comentada hasta acomodarla bien -->
  <!--  <div> <img class="imagen-fondo" src="img/fondo-home.jpg"> </div> -->
+    
       <div class="section" id="containerVideo">
       <!--   Icon Section   -->
        <div class="row">
@@ -27,31 +46,29 @@
          </div>
          <div class="col s12 m8">
              <div class="video-container" id="contenedorVideo">
-              <iframe width="420" height="315" id="frameVideo" src="https://www.youtube.com/embed/oFq_IwROMSI?autoplay=1"></iframe>
+              <iframe width="420" height="315" id="frameVideo" src="https://www.youtube.com/embed/oFq_IwROMSI?rel=0&autoplay=1"></iframe>
             </div>
           </div>
           <div class="col s12 m2">
             
          </div>
         </div>
-  <div class="container center">
- <a class="waves-effect waves-light btn-large" id="boton-home" href="tienda.html">Visita nuestra tienda</a>
- </div>
-
-    
-  </div>
+      <div class="container center">
+        <a class="waves-effect waves-light btn-large" id="boton-home" href="tienda.html">Visita nuestra tienda</a>
+     </div>
+    </div>
 
 
 <!-- SECCION CON BANNER 1 . COMO FUNCIONA -->
-  <div class="parallax-container valign-wrapper">
+  <div class="parallax-container valign-wrapper" id="bannerComoFunciona">
     <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
+      <div class="container" id="contenedorFunciona">
+        <div class="row center bottom">
           <h3 class="black-text">¿CÓMO FUNCIONA?</h3>
         </div>
       </div>
     </div>
-    <div class="banner"><img src="img/banner.jpg"></div>
+    <div class="banner" id="comoFunciona"><img src="img/banner.jpg"></div>
   </div>
 
 
@@ -130,7 +147,7 @@
 
 
 <!-- ACA ARRANCA EL FOOTER -->
-          <footer class="page-footer brown darken-1" >
+          <footer class="page-footer" id="footer" >
           <div class="container" >
             <div class="row">
 
