@@ -111,6 +111,36 @@ img.icono-footer
 	font-size: 22px;
 }
 
+#tituloCategorias
+{
+	font-size: 33px;
+	text-align: center;
+	color: white;
+}
+
+#tituloCadaCategoria /*titulo arriba de cada imagen */
+{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	background-color: #4caf50;
+}
+
+#contenedorCategorias {
+
+	width: 20%;
+  background-color: #424242 ;
+
+}
+
+img.categorias
+{
+	width: 50%;
+	height:  50%;
+
+	border-bottom: 0.5px solid grey;
+}
+
 #cus-qs
 {
 	font-size: 22px;
