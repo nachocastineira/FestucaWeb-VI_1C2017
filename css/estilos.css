@@ -51,10 +51,6 @@ img.imagen-footer
 	width: 65%;
 }
 
-#categorias
-{
-
-}
 
 img.imagen-tienda
 {
@@ -72,8 +68,77 @@ img.imagen-tienda
 
 img.icono-footer
 {
-	height: 15%;
-	width: 15%;
+	height: 13%;
+	width: 13%;
+}
+
+/* PARA CAMBIAR EL SUSCRIBITE*/
+/* label color */
+	.input-field label {
+		color: #000;
+	}
+	/* label focus color */
+	.input-field input[type=email]:focus + label {
+		color: #000;
+	}
+	/* label underline focus color */
+	.input-field input[type=email]:focus {
+		border-bottom: 1px solid #000;
+		box-shadow: 0 1px 0 0 #000;
+	}
+	/* valid color */
+	.input-field input[type=email].valid {
+		border-bottom: 1px solid #000;
+		box-shadow: 0 1px 0 0 #000;
+	}
+	/* invalid color */
+	.input-field input[type=email].invalid {
+		border-bottom: 1px solid #000;
+		box-shadow: 0 1px 0 0 #000;
+	}
+	/* icon prefix focus color */
+	.input-field .prefix.active {
+		color: #000;
+	}
+
+#texto-qs
+{
+	font-size: 22px;
+}
+
+#como-qs
+{
+	font-size: 22px;
+}
+
+#cus-qs
+{
+	font-size: 22px;
+	font-style: italic;
+}
+
+#cita-gunter
+{
+	font-size: 30px;
+	font-style: italic;
+}
+
+#autor-gunter
+{
+	font-size: 20px;
+	font-style: normal;
+}
+
+img.separadorQuienesSomos
+{
+	margin-left: 25%;
+	margin-right: -25%;
+}
+
+
+#datos-footer
+{
+	font-size: 13px;
 }
 
 .datos-footer
