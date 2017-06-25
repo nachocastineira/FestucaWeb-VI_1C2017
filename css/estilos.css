@@ -13,6 +13,48 @@
 
 }
 
+img.imagen-footer
+{
+	float: left;
+	height: 65%;
+	width: 65%;
+}
+
+#categorias
+{
+
+}
+
+img.imagen-tienda
+{
+	margin-left: 5%;
+	height: 10%;
+	width: 10%;
+}
+
+.barra-busqueda
+{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+img.icono-footer
+{
+	height: 15%;
+	width: 15%;
+}
+
+.datos-footer
+{
+	text-align: left;
+	line-height: 1.8; //interlineado del texto
+}
+
+#texto-footer
+{
+	text-align: center;
+}
 
 
 /* tamaño de los 3 iconos*/
@@ -82,7 +124,7 @@ footer.page-footer {
 }
 
 .banner img {
- 
+
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -104,26 +146,4 @@ footer.page-footer {
 
 #frameVideo{
   border-style: none;
-}
-
-#comoFunciona  {
-  border-bottom: solid 20px;
-  border-color: #79511D;
-
-}
-
-#footer {
-  background-color: #79511D;
-}
-
-#contenedorFunciona {
-     position: absolute;
-     left: 15%;
-     top: 75%;
-     background-color: #79511D;
-     border-radius: 13px;
-}
-
-#bannerComoFunciona {
-  height: 50%;
 }
