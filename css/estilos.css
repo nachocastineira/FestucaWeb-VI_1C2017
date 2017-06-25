@@ -6,8 +6,29 @@
 	width: 100%;
 }
 
+#comoFunciona  {
+   border-bottom: solid 20px;
+   border-color: #79511D;
 
-.imagen-fondo img
+ }
+
+ #footer {
+  background-color: #79511D;
+ }
+
+ #contenedorFunciona {
+      position: absolute;
+      left: 15%;
+      top: 75%;
+      background-color: #79511D;
+      border-radius: 13px;
+ }
+
+ #bannerComoFunciona {
+   height: 50%;
+ }
+
+img.imagen-fondo
 {
  float: left;
 
