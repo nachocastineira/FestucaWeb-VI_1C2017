@@ -9,7 +9,6 @@
 
 
 #comoFunciona  {
-   border-bottom: solid 20px;
    border-color: #79511D;
 
  }
@@ -18,27 +17,22 @@
   background-color: #79511D;
  }
 
- #contenedorFunciona {
-      position: absolute;
-      left: 15%;
-      top: 75%;
-      background-color: #79511D;
-      border-radius: 13px;
- }
+
 
 #bannerQuienesSomos {
 	height: 50%;
+	color:#79511D;
 }
 
  #bannerComoFunciona {
    height: 50%;
+	 	color:#79511D;
  }
 
 #botonVisitarTienda
 {
 	background-color: #397d56;
 }
-
 
 img.imagen-fondo
 {
@@ -303,4 +297,17 @@ footer.page-footer {
 
 #frameVideo{
   border-style: none;
+}
+
+#tituloFuncion{
+	font-family: Helvetica;
+	font-weight: bold;
+	background-color: #79511D ;
+	color: white;
+	vertical-align: bottom;
+}
+
+.textoBanner {
+	margin: 0px;
+	padding: 10px;
 }
