@@ -6,6 +6,8 @@
 	width: 100%;
 }
 
+
+
 #comoFunciona  {
    border-bottom: solid 20px;
    border-color: #79511D;
@@ -135,10 +137,39 @@ img.icono-footer
 
 img.categorias
 {
-	width: 50%;
+	width: 100%;
 	height:  50%;
 
 	border-bottom: 0.5px solid grey;
+}
+
+.linea-separadora{
+	border: 5px solid grey;
+}
+
+.linea-separadora-papelera{
+	border:3px solid #000;
+	margin-top: 95px;
+}
+
+.papeleria{
+	font-size:65px;
+	margin-left: 500px;
+	margin-top: -65px;
+}
+
+.color-descripcion-anotador{
+	color:green;
+	font-weight: bold;
+	margin-left: 780px;
+}
+
+.descripcion-semilla{
+	margin-left: 870px;
+}
+
+.borde{
+	border:3px solid #804000;
 }
 
 #cus-qs
