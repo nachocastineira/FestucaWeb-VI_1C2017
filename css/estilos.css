@@ -311,3 +311,19 @@ footer.page-footer {
 	margin: 0px;
 	padding: 10px;
 }
+
+
+/*PARTE DE ESTILOS DEL CHECKOUT*/
+
+#buscadorCheckout {
+	padding: 10px;
+}
+
+#camion{
+	size-icon:200%;
+}
+
+#grillaCamion{
+	padding: 0px;
+	margin: 0px;
+}
