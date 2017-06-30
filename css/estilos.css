@@ -68,34 +68,33 @@ img.icono-footer
 	width: 13%;
 }
 
-/* PARA CAMBIAR EL SUSCRIBITE*/
-/* label color */
-	.input-field label {
-		color: #000;
-	}
-	/* label focus color */
-	.input-field input[type=email]:focus + label {
-		color: #000;
-	}
-	/* label underline focus color */
-	.input-field input[type=email]:focus {
-		border-bottom: 1px solid #000;
-		box-shadow: 0 1px 0 0 #000;
-	}
-	/* valid color */
-	.input-field input[type=email].valid {
-		border-bottom: 1px solid #000;
-		box-shadow: 0 1px 0 0 #000;
-	}
-	/* invalid color */
-	.input-field input[type=email].invalid {
-		border-bottom: 1px solid #000;
-		box-shadow: 0 1px 0 0 #000;
-	}
-	/* icon prefix focus color */
-	.input-field .prefix.active {
-		color: #000;
-	}
+/* PARA EDITAR EL SUSCRIBIRSE */
+
+ /* en esto cambio el color del email que se esta escribiendo */
+ input#email.validate
+ {
+	 color: white;
+
+ }
+
+/* linea debajo con focus */
+ input#email:focus {
+	 border-bottom: 1px solid #ffd600 ;
+	 box-shadow: 0 1px 0 0 #ffd600 ;
+ }
+
+
+/* si es invalido el email */
+ input#email.invalid {
+	 border-bottom: 1px solid #e53935;
+	 box-shadow: 0 1px 0 0 #e53935;
+ }
+
+ input#email.valid {
+	 border-bottom: 1px solid #e0e0e0;
+	 box-shadow: 0 1px 0 0 #e0e0e0;
+ }
+
 
 #texto-qs
 {
