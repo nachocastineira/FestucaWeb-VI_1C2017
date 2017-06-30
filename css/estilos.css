@@ -292,8 +292,16 @@ footer.page-footer {
           transform: translateX(-50%);
 }
 
-#containerVideo{
+
+#colorTextoBarra{
+
+    color: black;
+
+}
+
+#fondoImagen{
   background-image: url(../img/festucaFondo2.jpg);
+	width: 100%;
 }
 
 #contenedorVideo{
@@ -345,12 +353,13 @@ border-right: 0.5px;
 }
 
 /*Estilo menu*/
-.navbar-fixed{
-	opacity: 0.5;
-}
-#fondoMenu{
+.navbar-fixed active{
 	background-color:#00c853;
-	}
-.nav-wrapper{
-	background-color:black;
-	}
+
+}
+
+
+
+	.transparentBG {
+  background-color: rgba(0,0,0,0);
+}
