@@ -334,4 +334,13 @@ border-right: 0.5px;
 
 }
 
-/*Estilo pagina de registro*/
+/*Estilo menu*/
+.navbar-fixed{
+	opacity: 0.5;
+}
+#fondoMenu{
+	background-color:#00c853;
+	}
+.nav-wrapper{
+	background-color:black;
+	}
