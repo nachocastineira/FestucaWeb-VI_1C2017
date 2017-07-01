@@ -293,8 +293,12 @@ footer.page-footer {
 }
 
 
-#colorTextoBarra{
+#colorTextoBarra{  /* los estilos de las palabras en la navbar */
   color: black;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-stretch: normal;
+	font-variant: normal;
 }
 
 #fondoImagen{
@@ -350,21 +354,26 @@ footer.page-footer {
 	margin: 0px;
 }
 
+div.navbar-fixed
+{
+	background-color: transparent;  /* le doy un transparente a la barra  */
+}
 
-
-.bordeFinal{
-border-right: 0.5px;
-
+nav.transparent
+{
+	box-shadow: none;   /* le saco la sombra a la barra   */
 }
 
 /*Estilo menu*/
-.navbar-fixed active{
-	background-color:#00c853;
+/*.navbar-fixed active{*/
+	/*background-color:#00c853;*/
+	/*border-style: none;
+	box-shadow: none;
+}*/
 
-}
 
-
-
+/*
 	.transparentBG {
   background-color: rgba(0,0,0,0);
-}
+	box-shadow: none;
+}*/
