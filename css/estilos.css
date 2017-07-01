@@ -37,7 +37,9 @@ margin-left: 8%;
 
 #botonVisitarTienda
 {
-	background-color: #397d56;
+	background-color: #157d42;
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
 
 img.imagen-fondo
@@ -280,7 +282,6 @@ footer.page-footer {
 }
 
 .banner img {
-
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -289,24 +290,28 @@ footer.page-footer {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 
 
 #colorTextoBarra{
-
-    color: black;
-
+  color: black;
 }
 
 #fondoImagen{
   background-image: url(../img/festucaFondo2.jpg);
-	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
-#contenedorVideo{
-  border-style: none;
+#videoHome
+{
+	margin-top: 6%;
+	margin-bottom: 2%;
+	margin-left: 7%;
+	margin-right: 5%;
+	width: 52%;
 }
+
 
 #frameVideo{
   border-style: none;
