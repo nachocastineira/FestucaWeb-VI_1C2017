@@ -24,12 +24,13 @@
 	margin-top: 4%;
 	width: 50%;
 	height: 50%;
+	margin-right: 9%;
 }
 
 #envioGratis
 {
 margin-top: 12%;
-margin-left: 8%;
+margin-left: -4%;
 }
 
 #bannerQuienesSomos {
@@ -348,10 +349,20 @@ footer.page-footer {
 	padding: 0px;
 }
 
+#iconosCantidad
+{
+	margin-top: 8%;
+}
+
+#tituloProducto
+{
+	margin-top: 2.5%;
+}
+
 #buscador
 {
 	margin-top: 2%;
-	margin-left: -2%;
+	margin-left: -3%;
 }
 
 
