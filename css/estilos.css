@@ -344,3 +344,10 @@ border-right: 0.5px;
 .nav-wrapper{
 	background-color:black;
 	}
+
+
+	#btn-submit{
+		cursor:pointer;
+		font-size: 15px;
+	
+	}
