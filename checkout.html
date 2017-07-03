@@ -22,50 +22,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" href="img/icono.png">
 
-    <title> Checkout - Tienda Festuca </title>
+    <title> Checkout - Festuca </title>
   </head>
-  <body class="grey lighten-3" id="color-body">
+  <body class="grey lighten-3">
 
 
-<!-- Barra de navegacion -->
-<div id="fondoMenu">
-    <div  class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">FESTUCA
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li class="active"><a href="index.html">Inicio</a></li>
-            <li class="active"><a href="tienda.html">Tienda</a></li>
-			<li class="active"><a href="checkout.html">Carrito</a></li>
-			<li class="active"><a href="registro.html">Registro</a></li>
-          </ul>
-        </div>
-      </nav>
+
+    <!-- Barra de navegacion -->
+      <div class="navbar-fixed">
+        <nav class="transparent">
+
+            <!-- <a href="index.html" class="brand-logo black-text">[Logo "Festuca"]</a> -->
+
+            <ul class="right hide-on-med-and-down">
+              <li class="active transparent"><a href="index.html" id="colorTextoBarra">Inicio</a></li>
+              <li class="active transparent"><a href="tienda.html" id="colorTextoBarra">Tienda</a></li>
+  			      <li class="active transparent"><a href="checkout.html" id="colorTextoBarra">Carrito</a></li>
+  			      <li class="active transparent"><a href="registro.html" id="colorTextoBarra">Registro</a></li>
+            </ul>
+
+        </nav>
+      </div>
+
+
+  <!-- Barra de buscador con logo y camioncito -->
+
+  <div class="row">
+    <div class="col s12 m4 l2 center-align">
+    <img class="logoIzquierdaBarra" src="img/logo-festuca-tienda.png"></img>
     </div>
-	</div>
-    <!-- Barra de buscador con logo y camioncito -->
 
-    <div class="row" id="buscadorCheckout">
-      <div class="col s12 m4 l2 center-align">
-      <img src="img/icono.png"></img>
-      </div>
 
-      <div class="col s12 m4 l8" id="buscador">
-        <div class="input-field grey" >
-          <input id="search" type="search" required placeholder="Busque su producto deseado">
-          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-          <i class="material-icons">close</i>
-        </div>
-      </div>
 
-      <div class=" left-align col s12 m4 l2">
-        <div class="row  " id="grillaCamion">
-          <div class="col s6 l6"><img src="img/camion.png"></img></div>
-          <div class="col s6 l6"><h5>Envio Gratis</h5></div>
-        </div>
+    <div class="col s12 m4 l8" id="buscador">
+      <div class="input-field grey" >
+        <input id="search" type="search" required placeholder="Busque su producto deseado">
+        <label class="label-icon" for="search"><i class="material-icons ">search</i></label>
+        <i class="material-icons">close</i>
       </div>
     </div>
+
+
+
+    <div class=" left-align col s12 m4 l2">
+      <div class="row">
+        <div id="envioGratis" class="col s6 l6"><img src="img/enviogratis.png"></img></div>
+        </div>
+    </div>
+  </div>
 
 
 <!-- Caja de productos -->

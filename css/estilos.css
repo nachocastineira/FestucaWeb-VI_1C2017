@@ -1,23 +1,29 @@
 
-
 .imagen-fondo
 {
-
 	width: 100%;
 }
 
-
-
 #comoFunciona  {
    border-color: #79511D;
-
  }
 
  #footer {
   background-color: #79511D;
  }
 
+.logoIzquierdaBarra
+{
+	margin-top: 4%;
+	width: 50%;
+	height: 50%;
+}
 
+#envioGratis
+{
+margin-top: 12%;
+margin-left: 8%;
+}
 
 #bannerQuienesSomos {
 	height: 50%;
@@ -31,7 +37,9 @@
 
 #botonVisitarTienda
 {
-	background-color: #397d56;
+	background-color: #157d42;
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
 
 img.imagen-fondo
@@ -185,8 +193,8 @@ img.categorias
 
 img.separadorQuienesSomos
 {
-	margin-left: 25%;
-	margin-right: -25%;
+	margin-left: 31.5%;
+	margin-right: -31.5%;
 }
 
 
@@ -198,7 +206,7 @@ img.separadorQuienesSomos
 .datos-footer
 {
 	text-align: left;
-	line-height: 1.8; //interlineado del texto
+	line-height: 1.8; /*interlineado del texto*/
 }
 
 #texto-footer
@@ -274,7 +282,6 @@ footer.page-footer {
 }
 
 .banner img {
-
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -283,16 +290,32 @@ footer.page-footer {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 
-#containerVideo{
+
+#colorTextoBarra{  /* los estilos de las palabras en la navbar */
+  color: black;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-stretch: normal;
+	font-variant: normal;
+}
+
+#fondoImagen{
   background-image: url(../img/festucaFondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
-#contenedorVideo{
-  border-style: none;
+#videoHome
+{
+	margin-top: 6%;
+	margin-bottom: 2%;
+	margin-left: 7%;
+	margin-right: 5%;
+	width: 52%;
 }
+
 
 #frameVideo{
   border-style: none;
@@ -318,23 +341,31 @@ footer.page-footer {
 	padding: 0px;
 }
 
-#camion{
-	size-icon:200%;
+#buscador
+{
+	margin-top: 2%;
+	margin-left: -2%;
 }
+
+
 
 #grillaCamion{
 	padding: 0px;
 	margin: 0px;
 }
 
+div.navbar-fixed
+{
+	background-color: transparent;  /* le doy un transparente a la barra  */
+}
 
-
-.bordeFinal{
-border-right: 0.5px;
-
+nav.transparent
+{
+	box-shadow: none;   /* le saco la sombra a la barra   */
 }
 
 /*Estilo menu*/
+<<<<<<< HEAD
 .navbar-fixed{
 	opacity: 0.5;
 }
@@ -351,3 +382,17 @@ border-right: 0.5px;
 		font-size: 15px;
 	
 	}
+=======
+/*.navbar-fixed active{*/
+	/*background-color:#00c853;*/
+	/*border-style: none;
+	box-shadow: none;
+}*/
+
+
+/*
+	.transparentBG {
+  background-color: rgba(0,0,0,0);
+	box-shadow: none;
+}*/
+>>>>>>> 2e4241e917114a372686b45dbf19c5683ae5cd2d

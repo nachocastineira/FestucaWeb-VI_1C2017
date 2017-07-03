@@ -16,98 +16,55 @@
     <link rel="shortcut icon" href="img/icono.png">
     <title>Tienda - Festuca</title>
   </head>
-<body>
+
+<body class="grey lighten-3">
+
+
 
   <!-- Barra de navegacion -->
-  <div id="fondoMenu">
-    <div  class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">FESTUCA
-          </a>
+    <div class="navbar-fixed">
+      <nav class="transparent">
+
+          <!-- <a href="index.html" class="brand-logo black-text">[Logo "Festuca"]</a> -->
+
           <ul class="right hide-on-med-and-down">
-            <li class="active"><a href="index.html">Inicio</a></li>
-            <li class="active"><a href="tienda.html">Tienda</a></li>
-			<li class="active"><a href="checkout.html">Carrito</a></li>
-			<li class="active"><a href="registro.html">Registro</a></li>
+            <li class="active transparent"><a href="index.html" id="colorTextoBarra">Inicio</a></li>
+            <li class="active transparent"><a href="tienda.html" id="colorTextoBarra">Tienda</a></li>
+			      <li class="active transparent"><a href="checkout.html" id="colorTextoBarra">Carrito</a></li>
+			      <li class="active transparent"><a href="registro.html" id="colorTextoBarra">Registro</a></li>
           </ul>
-        </div>
+
       </nav>
     </div>
-	</div>
 
-<h2>Esto va a ser la tienda, espero</h2>
 
-<!-- <img src="img/plant.png" alt="imagen representativa de la web" class="imagen-tienda"> imagen lado de barra -->
 
-<nav class="barra-busqueda">
-  <div class="nav-wrapper">
-    <form>
-      <div class="input-field grey">
+  <!-- Barra de buscador con logo y camioncito -->
+
+  <div class="row">
+    <div class="col s12 m4 l2 center-align">
+    <img class="logoIzquierdaBarra" src="img/logo-festuca-tienda.png"></img>
+    </div>
+
+
+
+    <div class="col s12 m4 l8" id="buscador">
+      <div class="input-field grey" >
         <input id="search" type="search" required placeholder="Busque su producto deseado">
-        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+        <label class="label-icon" for="search"><i class="material-icons ">search</i></label>
         <i class="material-icons">close</i>
       </div>
-    </form>
-  </div>
-</nav>
-
-
-
-<!-- <h4>Tiene que tener una barra de busqueda</h4>
-<h4>Va a tener 3 categorias de productos</h4> -->
-<!--
-<div class="row">
-
-
- -->
-
-  <!-- <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-1">
-      <div class="card-content white-text">
-        <span class="card-title">CATEGORIA</span>
-        <p>I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
-      </div>
-      <div class="card-action">
-        <a href="#">This is a link</a>
-        <a href="#">This is a link</a>
-      </div>
     </div>
-  </div>
- -->
 
-<!--
-  <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-1">
-      <div class="card-content white-text">
-        <span class="card-title">CATEGORIA</span>
-        <p>I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
-      </div>
-      <div class="card-action">
-        <a href="#">This is a link</a>
-        <a href="#">This is a link</a>
-      </div>
+
+
+    <div class=" left-align col s12 m4 l2">
+      <div class="row">
+        <div id="envioGratis" class="col s6 l6"><img src="img/enviogratis.png"></img></div>
+        </div>
     </div>
   </div>
 
-
-
-  <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-1">
-      <div class="card-content white-text">
-        <span class="card-title">CATEGORIA</span>
-        <p>I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
-      </div>
-      <div class="card-action">
-        <a href="#">This is a link</a>
-        <a href="#">This is a link</a>
-      </div>
-    </div>
-  </div>
-</div> -->
 
 </div>
 <div class="container" id="contenedorCategorias">
@@ -179,6 +136,7 @@
 
 
 <h4>Vamos a expandir una sola categoria (PAPELERIA), esa va a mostrar 4 productos</h4>
+<h3 class="center green-text">TAMO ACTIVO, TAMO ACTIVO, TAMO EN VIVO</h3>
 
 
 
