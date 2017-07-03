@@ -4,6 +4,13 @@
 	width: 100%;
 }
 
+.festucafondo{
+	width: 667%;
+	margin-left: -13px;
+	margin-top: -15px;
+	margin-bottom: -171px;
+}
+
 #comoFunciona  {
    border-color: #79511D;
  }
@@ -380,7 +387,7 @@ nav.transparent
 	#btn-submit{
 		cursor:pointer;
 		font-size: 15px;
-	
+
 	}
 =======
 /*.navbar-fixed active{*/
