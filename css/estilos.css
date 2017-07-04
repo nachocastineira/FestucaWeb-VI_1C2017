@@ -5,10 +5,15 @@
 }
 
 .festucafondo{
-	width: 667%;
+	width: 660%;
+	position: relative;
+	max-width: 1662px;
+	margin-right: -13px;
 	margin-left: -13px;
 	margin-top: -15px;
 	margin-bottom: -171px;
+	/*margin-right: -5px;*/
+	/*min-width: 100px;*/
 }
 
 #comoFunciona  {
@@ -161,12 +166,16 @@ img.categorias
 	margin-top: 95px;
 }
 
-/*.papeleria{
-	font-size:65px;
-	margin-left: 500px;
-	margin-top: -65px;
+.papeleria-fondo{
+	background-color: grey;
+	opacity: 0.5;
 }
-*/
+
+h3 .papeleria{
+	font-size:35px;
+	color:black;
+}
+
 .color-descripcion-anotador{
 	color:green;
 	font-weight: bold;
@@ -178,7 +187,45 @@ img.categorias
 }
 
 .borde{
-	border:3px solid #804000;
+	border:5px solid #804000;
+}
+
+.anotador-cm{
+	font-weight: bolder;
+	margin-left: 85px;
+	font-size: 45px;
+	font-family: sans-serif;
+}
+
+.tamaño-cm{
+	font-size:25px;
+	font-weight: bolder;
+	margin-left: 5px;
+	font-family: sans-serif;
+}
+
+.monto{
+	font-size: 45px;
+	color:#800040;
+	margin-left: 755px;
+	margin-top: -75px;
+}
+
+.btn-compra{
+	padding: 5px 35px;
+	background-color: green;
+	font-size: 35px;
+	color:white;
+	font-weight: 400;
+	margin-left: 770px;
+	margin-bottom: 5px;
+	font-family: sans-serif;
+}
+
+.img-carrito{
+	width: 50px;
+	margin-left: -15px;
+	margin-right: 35px;
 }
 
 #cus-qs
