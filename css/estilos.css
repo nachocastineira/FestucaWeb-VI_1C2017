@@ -177,7 +177,7 @@ h3 .papeleria{
 }
 
 .color-descripcion-anotador{
-	color:green;
+	color:#157d42;
 	font-weight: bold;
 	margin-left: 780px;
 }
@@ -213,7 +213,7 @@ h3 .papeleria{
 
 .btn-compra{
 	padding: 5px 35px;
-	background-color: green;
+	background-color: #157d42;
 	font-size: 35px;
 	color:white;
 	font-weight: 400;
@@ -430,7 +430,10 @@ footer.page-footer {
 	text-align: center;
 	font-weight: bold;
 
+
 }
+
+
 
 #tituloResumenTexto
 {
@@ -522,7 +525,16 @@ nav.transparent
 	#btn-submit{
 		cursor:pointer;
 		font-size: 15px;
+		background-color: #157d42;
+		padding: 5px 285px;
+	}
 
+	#btn-reset{
+		cursor: pointer;
+		font-size: 15px;
+		background-color: #157d42;
+		margin-top: 5px;
+		padding: 5px 273px;
 	}
 =======
 /*.navbar-fixed active{*/
