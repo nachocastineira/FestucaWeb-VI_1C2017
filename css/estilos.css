@@ -372,6 +372,83 @@ footer.page-footer {
 	margin: 0px;
 }
 
+/*resumen de la compra en checkout */
+
+#tituloResumen
+{
+	background-color: #e0e0e0  ;
+	font-size: 12px;
+	border: 1px solid black;
+	border-bottom: 1px solid #e0e0e0;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#tituloResumenTexto
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+#recuadroResumen
+{
+	background-color: white;
+	border: 1px solid black;
+	padding: 1%;
+}
+
+#retiroResumen
+{
+	background-color: #eeeeee;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+#retiroSucursal
+{
+	font-size: 17px;
+	text-align: center;
+
+}
+
+#botonRetiro
+{
+	width: 35%;
+	margin-left: 32.5%;
+	margin-right: 32.5%;
+	background-color: #157d42;
+}
+
+#textoResumen
+{
+	text-align: center;
+	text-decoration: none;
+}
+
+#subtotal
+{
+	font-size: 22px;
+	text-align: center;
+	color: grey;
+}
+
+#total
+{
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#botonPagar
+{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 4%;
+	background-color: #157d42;
+}
+
 div.navbar-fixed
 {
 	background-color: transparent;  /* le doy un transparente a la barra  */
