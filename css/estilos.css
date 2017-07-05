@@ -647,6 +647,8 @@ footer.page-footer {
 	text-align: center;
 	text-decoration: none;
 	display: none;
+	color:#000;
+	font-weight: bolder;
 }
 
 #subtotal
