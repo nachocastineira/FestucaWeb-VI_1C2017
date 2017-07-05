@@ -604,6 +604,8 @@ footer.page-footer {
 
 
 
+
+
 #tituloResumenTexto
 {
 	text-align: center;
@@ -644,6 +646,7 @@ footer.page-footer {
 {
 	text-align: center;
 	text-decoration: none;
+	display: none;
 }
 
 #subtotal
@@ -679,7 +682,7 @@ nav.transparent
 }
 
 /*Estilo menu*/
-<<<<<<< HEAD
+
 .navbar-fixed{
 	opacity: 0.5;
 }
@@ -718,4 +721,3 @@ nav.transparent
   background-color: rgba(0,0,0,0);
 	box-shadow: none;
 }*/
->>>>>>> 2e4241e917114a372686b45dbf19c5683ae5cd2d

@@ -1,13 +1,13 @@
 // un jquery
 $(document).ready(function(){
-  $("#botonRetiro").click(function(){
-    var textoResumen = $("#textoResumen").value();
+  $("#botonRetiro").on("click",function(){
+    var textoResumen = $("#textoResumen").val();
     if(textoResumen == ""){
+      $("#textoResumen").fadeIn();
       return false;
     }
-    else {
-
-      return "Realizado el descuento del 10% del producto ya que retiras en la sucursal mas cercana";
+    else{
+      $("textoResumen").fadeOut();
     }
-  });
+  })
 });
