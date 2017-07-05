@@ -63,3 +63,26 @@ $(document).ready(function(){
     });
   });
   });
+
+  //validacion de la tienda
+  $(document).ready(function(e){
+
+    $("#categorias").click(function(){
+      $("#principio").hide();
+    });
+
+    $("#categorias").click(function(){
+      $("#principio").show();
+    });
+
+    $("#anotador").click(function(){
+      $('.imagen-anotador').show();
+      //$("#producto").show();
+    });
+  });
+
+  $(document).ready(function(){
+    $("#anotador").click(function(){
+      $("#anotador-producto").show();
+    });
+  });

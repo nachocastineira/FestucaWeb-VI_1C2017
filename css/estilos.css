@@ -180,6 +180,15 @@ img.categorias
 .papeleria-fondo{
 	background-color: grey;
 	opacity: 0.5;
+	display: none;
+}
+
+.borde{
+	display: none;
+}
+
+#principio{
+	display: none;
 }
 
 .imagen-anotador{
@@ -404,6 +413,10 @@ h3 .papeleria{
 	opacity: 0.4;
 	border: 1px solid #000;
 	float: right;
+}
+
+.img-opacas{
+	display: none;
 }
 
 #cus-qs
