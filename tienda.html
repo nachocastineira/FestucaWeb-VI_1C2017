@@ -73,7 +73,7 @@
 
 <div class="row">
 
-  <div class="col s12 m4 l4"> <h5 class="center" id="tituloCadaCategoria">PAPELERIA</h5> <img src="img/cat1.jpg" alt="cat1" class="categorias"></div>
+  <a href="#papeleria"><div class="col s12 m4 l4"> <h5 class="center" id="tituloCadaCategoria">PAPELERIA</h5> <img src="img/cat1.jpg" alt="cat1" class="categorias"></div></a>
   <div class="col s12 m4 l4" > <h5 class="center" id="tituloCadaCategoria">ESCRITURA</h5><img src="img/cat2.jpg" alt="cat2" class="categorias"></div>
   <div class="col s12 m4 l4"> <h5 class="center" id="tituloCadaCategoria">CAJAS</h5><img src="img/cat3.jpg" alt="cat3" class="categorias"></div>
 
@@ -88,7 +88,7 @@
   </div>
 </div>
 
-<div class="row papeleria-fondo">
+<div class="row papeleria-fondo" id="papeleria">
 	<div class="col s12">
 		<h3 class="center-align papeleria">
 			PAPELERIA
@@ -96,8 +96,8 @@
 	</div>
 </div>
 
-<div class="row">
-  <img src="img/cat1.jpg" class="imagen-papeleria-seleccion"/>
+<div class="row" id="principio">
+  <a href="#producto"><img src="img/cat1.jpg" class="imagen-papeleria-seleccion"/></a>
   <p class="pie-imagen-anotador">
     Anotador <span class="pie-anotador-cm">10x14cm</span>
     <img src="img/carrito-popup.png" class="carrito-anotador" />
@@ -113,8 +113,22 @@
       $400.50
     </p>
   </p>
-  <img src="img/cat3.jpg" class="imagen-papeleria-seleccion" />
-  <img src="img/camion.png" class="imagen-papeleria-seleccion" />
+  <img src="img/cat3.jpg" class="imagen-papeleria-seleccion2" />
+  <p class="sobre">
+    Sobre <span class="pie-sobre-cm">10x15cm</span>
+    <img src="img/carrito-popup.png" class="carrito-sobre" />
+    <p class="monto-sobre">
+      $400.50
+    </p>
+  </p>
+  <img src="img/camion.png" class="imagen-papeleria-seleccion3" />
+  <p class="calendario">
+    Calendario
+    <img src="img/carrito-popup.png" class="calendario-carrito" />
+    <p class="monto-calendario">
+      $400.50
+    </p>
+  </p>
 </div>
 
 <div class="row">
@@ -131,10 +145,10 @@
 </div>
 
 <div class="row borde">
-  <div class="descripcion-producto">
+  <div class="descripcion-producto" id="producto">
     <!-- imagen de prueba -->
     <img src="img/instagram.png" class="imagen-anotador" />
-    <h3>ACA VA EL PRODUCTO DETALLE QUE HAY QUE OCULTAR Y MOSTRARLO CUANDO SEA NECESARIO</h3>
+    <a href="#principio"><img src="img/cerrar.jpg" class="img-cerrar-anotador" /></a>
     <p>
       <span class="color-descripcion-anotador">Descripcion: </span> Anotador plantable caratula corazon<br />
       <span class="color-descripcion-anotador">Cantidad de hojas: </span>30 hojas blancas rayadas<br />
@@ -164,8 +178,14 @@
 
 
 
-<h4>Vamos a expandir una sola categoria (PAPELERIA), esa va a mostrar 4 productos</h4>
-<h3 class="center green-text">TAMO ACTIVO, TAMO ACTIVO, TAMO EN VIVO</h3>
+
+<div class="row">
+  <div>
+    <img src="img/cat2.jpg" class="imagen-papeleria-seleccion1-opaca" />
+    <img src="img/cat3.jpg" class="imagen-papeleria-seleccion2-opaca2" />
+    <img src="img/camion.png" class="imagen-papeleria-seleccion3-opaca3" />
+  </div>
+</div>
 
 
 
