@@ -52,32 +52,40 @@
         <div class="input-field col s4 m4">
           <input id="First_name" type="text" class="validate">
           <label for="First_name">Nombre</label>
+          <span id="error">(*) Escriba su nombre</span>
         </div>
         <div class="input-field col s4 m4">
           <input id="last_name" type="text" class="validate">
           <label for="last_name">Apellido</label>
+          <span id="error2">(*) Escriba su apellido</span>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s4 m4">
           <input id="password" type="password" class="validate">
           <label for="password">Contraseña</label>
+          <span id="error3">(*) Escriba su contraseña</span>
         </div>
       </div>
 	  <div class="row">
         <div class="input-field col s4 m4">
-          <input id="password" type="password" class="validate">
+          <input id="password2" type="password" class="validate">
           <label for="password">Repita la contraseña</label>
+          <span id="error4">(*) Reescriba su contraseña</span>
         </div>
       </div>
          <div class="row">
         <div class="input-field col s4 m4">
           <input id="last-name" type="email" class="validate">
           <label for="email" data-error="Ingrese un mail valido(ejemplo@ejemplo.com" data-success="Casilla de Email valida">Email</label>
+          <span id="error5">(*) Escriba su email</span>
         </div>
       </div>
       <div>
         <button type="submit" class="waves-effect waves-light btn-large" id="btn-submit">Enviar</button><br />
+        <p class="btn-submit-enviar" id="btn-submit-enviar">
+          Se envio correctamente
+        </p>
         <button type="reset" class="waves-effect waves-light btn-large" id="btn-reset">Deshacer</button>
       </div>
      </form>

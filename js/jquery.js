@@ -1,4 +1,5 @@
 // un jquery
+//validacion del checkout en la compra
 $(document).ready(function(){
   $("#botonRetiro").on("click",function(){
     var textoResumen = $("#textoResumen").val();
@@ -11,3 +12,54 @@ $(document).ready(function(){
     }
   })
 });
+
+//validacion del formulario
+$(document).ready(function(){
+  var expr=/^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
+  $(document).ready(function(){
+    $("#btn-submit").on("click",function(){
+      var nombre = $("#First_name").val();
+      var apellido = $("#last_name").val();
+      var contraseña = $("#password").val();
+      var r_contraseña = $("#password2").val();
+      var email = $("#last_name").val();
+      var enviarFormulario = $("#btn-submit").val();
+      if(nombre == ""){
+        $("#error").fadeIn();
+        return false;
+      }
+      else{
+        $("#error").fadeOut();
+        if(apellido == ""){
+          $("#error2").fadeIn();
+          return false;
+        }
+        else {
+          $("#error2").fadeOut();
+          if(contraseña == ""){
+            $("#error3").fadeIn();
+            return false;
+          }
+          else {
+            $("#error3").fadeOut();
+            if(r_contraseña == ""){
+              $("#error4").fadeIn();
+              return false;
+            }
+            else{
+              $("#error4").fadeOut();
+              if(email == "" ){
+                $("#error5").fadeIn();
+                return false;
+              }
+              else {
+                $("#error5").fadeOut();
+
+              }
+            }
+          }
+        }
+      }
+    });
+  });
+  });

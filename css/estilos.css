@@ -710,7 +710,42 @@ nav.transparent
 		margin-top: 5px;
 		padding: 5px 273px;
 	}
-=======
+
+	#error{
+		display: none;
+		color: red;
+		font-weight: bolder;
+	}
+
+	#error2{
+		display: none;
+		color: red;
+		font-weight: bolder;
+	}
+
+	#error3{
+		display: none;
+		color: red;
+		font-weight: bolder;
+	}
+
+	#error4{
+		display: none;
+		color: red;
+		font-weight: bolder;
+	}
+
+	#error5{
+		display: none;
+		color: red;
+		font-weight: bolder;
+	}
+
+	.btn-submit-enviar{
+		display: none;
+		color: green;
+		font-weight: bolder;
+	}
 /*.navbar-fixed active{*/
 	/*background-color:#00c853;*/
 	/*border-style: none;
