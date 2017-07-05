@@ -16,6 +16,17 @@
 	/*min-width: 100px;*/
 }
 
+#festuca-centro{
+	margin-left: 600px;
+
+}
+
+.producto-sembrable{
+	margin-left: 600px;
+	margin-top: -25px;
+	color:#000;
+}
+
 #comoFunciona  {
    border-color: #79511D;
  }
@@ -169,6 +180,71 @@ img.categorias
 .papeleria-fondo{
 	background-color: grey;
 	opacity: 0.5;
+}
+
+.imagen-anotador{
+	width: 280px;
+	margin-bottom: -415px;
+	margin-left: 150px;
+}
+
+.imagen-papeleria-seleccion{
+	width: 450px;
+	margin-left: 15px;
+}
+
+.pie-imagen-anotador{
+	color:#000;
+	font-weight: bolder;
+	font-size: 25px;
+	margin-top: -25px;
+	margin-left: 15px;
+}
+
+.pie-anotador-cm{
+	color#000;
+	font-weight: bolder;
+}
+
+.carrito-anotador{
+	width: 55px;
+	margin-top: 25px;
+	margin-left: 175px;
+}
+
+.monto-anotador{
+	color:#800040;
+	font-size: 25px;
+	margin-left: 15px;
+	margin-top: -25px;
+}
+
+.imagen-papeleria-seleccion1{
+	float: right;
+	margin-top: -520px;
+	width: 450px;
+	margin-right: 15px;
+}
+
+.tarjeta-personal{
+	color:#000;
+	font-weight: bolder;
+	font-size: 25px;
+	margin-top: -130px;
+	margin-left:885px;
+}
+
+.monto-tarjeta{
+	color:#800040;
+	font-size: 25px;
+	margin-left: 885px;
+	margin-top: -25px;
+}
+
+.carrito-tarjeta{
+	width: 55px;
+	margin-top: 40px;
+	margin-left: 175px;
 }
 
 h3 .papeleria{
