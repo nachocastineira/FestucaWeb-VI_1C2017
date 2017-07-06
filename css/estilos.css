@@ -132,6 +132,14 @@ img.icono-footer
 	font-size: 33px;
 	text-align: center;
 	color: white;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 0%;
+	background-color: #424242 ;
 }
 
 #tituloCadaCategoria /*titulo arriba de cada imagen */
@@ -140,13 +148,16 @@ img.icono-footer
 	font-size: 20px;
 	color: white;
 	background-color: #4caf50;
+	padding: 7px;
+	width: 50%;
+	margin-bottom: 0px;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
-#contenedorCategorias {
 
-	width: 20%;
-  background-color: #424242 ;
-
+#separadorCategorias {
+	background-color: #424242 ;
 }
 
 img.categorias
@@ -158,7 +169,7 @@ img.categorias
 }
 
 .linea-separadora{
-	border: 5px solid grey;
+	border: 5px solid #424242;
 }
 
 .linea-separadora-papelera{
@@ -420,16 +431,19 @@ h3 .papeleria{
 {
 	font-size: 21px;
 	font-style: normal;
+	margin-top: 30px;
 }
 
 #cita-gunter
 {
 	font-size: 30px;
+	margin-bottom: 12px;
 	font-style: italic;
 }
 
 #autor-gunter
 {
+	margin-top: 50px;
 	font-size: 20px;
 	font-style: normal;
 }
