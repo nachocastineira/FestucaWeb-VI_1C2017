@@ -239,7 +239,7 @@ img.categorias
 
 .imagen-papeleria-seleccion1{
 	float: right;
-	margin-top: -502px;
+	margin-top: -445px;
 	width: 450px;
 	margin-right: 15px;
 	border: 1px solid #000;
@@ -270,6 +270,7 @@ img.categorias
 .imagen-papeleria-seleccion2{
 	margin-top: 80px;
 	width: 450px;
+	height: 353px;
 	margin-left: 15px;
 	border:1px solid #000;
 }
@@ -306,9 +307,9 @@ img.categorias
 
 .imagen-papeleria-seleccion3{
 	float: right;
-	margin-top: -507px;
+	margin-top: -442px;
 	width: 450px;
-	height: 412px;
+	height: 353px;
 	margin-left: 15px;
 	margin-right: 15px;
 	border: 1px solid #000;
