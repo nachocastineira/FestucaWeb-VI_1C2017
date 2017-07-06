@@ -119,12 +119,12 @@ img.icono-footer
 
 #texto-qs
 {
-	font-size: 22px;
+	font-size: 20px;
 }
 
 #como-qs
 {
-	font-size: 22px;
+	font-size: 21px;
 }
 
 #tituloCategorias
@@ -418,8 +418,8 @@ h3 .papeleria{
 
 #cus-qs
 {
-	font-size: 22px;
-	font-style: italic;
+	font-size: 21px;
+	font-style: normal;
 }
 
 #cita-gunter
@@ -436,8 +436,7 @@ h3 .papeleria{
 
 img.separadorQuienesSomos
 {
-	/*margin-left: 31.5%;
-	margin-right: -31.5%;*/
+
 }
 
 
