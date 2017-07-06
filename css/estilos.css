@@ -116,17 +116,6 @@ img.icono-footer
  }
 
 
-/* si es invalido el email */
- input#email.invalid {
-	 border-bottom: 1px solid #e53935;
-	 box-shadow: 0 1px 0 0 #e53935;
- }
-
- input#email.valid {
-	 border-bottom: 1px solid #e0e0e0;
-	 box-shadow: 0 1px 0 0 #e0e0e0;
- }
-
 
 #texto-qs
 {
@@ -284,7 +273,7 @@ img.categorias
 }
 
 .pie-sobre-cm{
-	color#000;
+	color #000;
 	font-weight: bolder;
 }
 
@@ -379,16 +368,14 @@ h3 .papeleria{
 	margin-top: -75px;
 }
 
-.btn-compra{
-	padding: 5px 35px;
+
+#btnCompra{
+
 	background-color: #157d42;
-	font-size: 25px;
+	font-size: 18px;
 	color:white;
-	font-weight: 400;
 	margin-left: 970px;
 	margin-top: -135px;
-	font-family: sans-serif;
-	border-radius: 10px;
 }
 
 .img-carrito{
@@ -718,48 +705,55 @@ nav.transparent
 
 
 	#btn-submit{
-		cursor:pointer;
+		cursor: pointer;
 		font-size: 15px;
-		background-color: #157d42;
-		padding: 5px 285px;
+		background-color: #43a047;
+		padding: 1px 160px;
+		margin-top: 15px;
+		margin-bottom: 50px;
 	}
 
 	#btn-reset{
 		cursor: pointer;
 		font-size: 15px;
-		background-color: #157d42;
-		margin-top: 5px;
-		padding: 5px 273px;
+		background-color: #ef5350;
+		margin-top: 15px;
+		margin-bottom: 50px;
+		padding: 1px 15px;
 	}
+
+#formulario
+{
+	margin-top: 100px;
+}
 
 	#error{
 		display: none;
 		color: red;
-		font-weight: bolder;
+
 	}
 
 	#error2{
 		display: none;
 		color: red;
-		font-weight: bolder;
+
 	}
 
 	#error3{
 		display: none;
 		color: red;
-		font-weight: bolder;
+
 	}
 
 	#error4{
 		display: none;
 		color: red;
-		font-weight: bolder;
+
 	}
 
 	#error5{
 		display: none;
 		color: red;
-		font-weight: bolder;
 	}
 
 	.btn-submit-enviar{

@@ -23,7 +23,7 @@
       <div class="navbar-fixed">
         <nav class="transparent">
 
-          <!--  <a href="index.html" class="brand-logo black-text">[Logo "Festuca"]</a>-->
+
           <div class="row">
             <div class="col s12 m4 l2 center-align">
             <a href="index.html"><img class="logoIzquierdaBarra" src="img/logo-festuca-tienda.png"></img></a>
@@ -37,56 +37,74 @@
 
         </nav>
       </div>
-      <!--<div class="row">
-        <div class="col s12 m4 l2 center-align">
-        <img class="logoIzquierdaBarra" src="img/logo-festuca-tienda.png"></img>
-      </div>-->
+
 
 
   <div class="container" id="formulario">
-  <h3 id="TituloRegistro">Registrarme</h3>
-  <!-- <h4 id="InformacionPersonal">Información Personal</h4> -->
+
   <div class="row">
     <form class="col s12" >
      <div class="row">
+
         <div class="input-field col s4 m4">
+          <i class="material-icons prefix">perm_identity</i>
           <input id="First_name" type="text" class="validate">
           <label for="First_name">Nombre</label>
           <span id="error">(*) Escriba su nombre</span>
         </div>
+
         <div class="input-field col s4 m4">
+          <i class="material-icons prefix">perm_identity</i>
+
           <input id="last_name" type="text" class="validate">
           <label for="last_name">Apellido</label>
           <span id="error2">(*) Escriba su apellido</span>
         </div>
+
       </div>
       <div class="row">
         <div class="input-field col s4 m4">
+          <i class="material-icons prefix">lock_outline</i>
+
           <input id="password" type="password" class="validate">
           <label for="password">Contraseña</label>
           <span id="error3">(*) Escriba su contraseña</span>
         </div>
       </div>
+
 	  <div class="row">
         <div class="input-field col s4 m4">
+          <i class="material-icons prefix">lock_outline</i>
+
           <input id="password2" type="password" class="validate">
-          <label for="password">Repita la contraseña</label>
+          <label for="password2">Repita la contraseña</label>
           <span id="error4">(*) Reescriba su contraseña</span>
         </div>
       </div>
-         <div class="row">
+
+    <div class="row">
         <div class="input-field col s4 m4">
+          <i class="material-icons prefix">email</i>
           <input id="last-name" type="email" class="validate">
-          <label for="email" data-error="Ingrese un mail valido(ejemplo@ejemplo.com" data-success="Casilla de Email valida">Email</label>
+          <label for="email" data-error="Ingrese un mail valido (ejemplo@ejemplo.com" data-success="Casilla de Email valida">Email</label>
           <span id="error5">(*) Escriba su email</span>
         </div>
       </div>
       <div>
-        <button type="submit" class="waves-effect waves-light btn-large" id="btn-submit">Enviar</button><br />
+
+        <button class="btn waves-effect waves-light" type="submit" name="action" id="btn-submit">Registrarse
+            <!-- <i class="material-icons right">send</i> -->
+        </button>
         <p class="btn-submit-enviar" id="btn-submit-enviar">
           Se envio correctamente
         </p>
-        <button type="reset" class="waves-effect waves-light btn-large" id="btn-reset">Deshacer</button>
+
+
+        <button class="btn waves-effect waves-light" type="reset" name="action" id="btn-reset">Deshacer
+            <!-- <i class="material-icons right">clear</i> -->
+        </button>
+
+
       </div>
      </form>
   </div>
