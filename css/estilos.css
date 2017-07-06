@@ -192,16 +192,17 @@ img.categorias
 }
 
 .imagen-anotador{
-	width: 380px;
+	width: 40%;
 	margin-bottom: -345px;
-	margin-left: 150px;
-	margin-top: 15px;
+	margin-left: 3%;
+	margin-top: 3%;
 }
 
-.img-cerrar-anotador{
-	width: 35px;
-	margin-left: 1290px;
-	margin-top: -75px;
+img.img-cerrar-anotador{
+	width: 4%;
+	margin-left: 95%;
+	margin-right: 5%;
+	margin-top: -80px;
 }
 
 .imagen-papeleria-seleccion{
@@ -292,6 +293,7 @@ img.categorias
 
 .carrito-sobre{
 
+width: 55px;
 	margin-top: 25px;
 	margin-left: 214px;
 	margin-bottom: -28px;
@@ -325,7 +327,7 @@ img.categorias
 
 .calendario-carrito{
 	width: 55px;
-	margin-top: 40px;
+	margin-top: 47px;
 	margin-left: 271px;
 	margin-bottom: -25px;
 }
@@ -346,11 +348,17 @@ h3 .papeleria{
 .color-descripcion-anotador{
 	color:#157d42;
 	font-weight: bold;
-	margin-left: 780px;
+	margin-left: 50%;
 }
 
 .descripcion-semilla{
-	margin-left: 870px;
+	margin-left: 60%;
+}
+
+#anotador-producto{
+	margin-left: 4%;
+	margin-right: 4%;
+	border-left: none;
 }
 
 .borde{
@@ -358,17 +366,19 @@ h3 .papeleria{
 }
 
 .anotador-cm{
-	font-weight: bolder;
-	margin-left: 145px;
+	font-weight: normal;
+	font-stretch: semi-condensed;
+	margin-left: 10%;
 	font-size: 45px;
 	font-family: sans-serif;
-	margin-top: 125px;
+	margin-top: 7%;
 }
 
 .tamaño-cm{
 	font-size:25px;
 	font-weight: bolder;
 	margin-left: 5px;
+	margin-top: 7%;
 	font-family: sans-serif;
 }
 
@@ -386,7 +396,7 @@ h3 .papeleria{
 	font-size: 18px;
 	color:white;
 	margin-left: 970px;
-	margin-top: -135px;
+	margin-top: -150px;
 }
 
 .img-carrito{
