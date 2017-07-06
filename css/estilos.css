@@ -384,6 +384,12 @@ h3 .papeleria{
 	margin-right: 35px;
 }
 
+#ciclo
+{
+	width: 200px;
+	height: 200px;
+}
+
 .imagen-papeleria-seleccion1-opaca{
 	width: 325px;
 	margin-left: 15px;
@@ -430,8 +436,8 @@ h3 .papeleria{
 
 img.separadorQuienesSomos
 {
-	margin-left: 31.5%;
-	margin-right: -31.5%;
+	/*margin-left: 31.5%;
+	margin-right: -31.5%;*/
 }
 
 
