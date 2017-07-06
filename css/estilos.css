@@ -287,12 +287,15 @@ img.categorias
 	font-weight: bolder;
 }
 
+
+
 .carrito-sobre{
-	width: 55px;
+
 	margin-top: 25px;
 	margin-left: 214px;
 	margin-bottom: -28px;
 }
+
 
 .monto-sobre{
 	color:#800040;
@@ -620,12 +623,7 @@ footer.page-footer {
 	border-bottom: 1px solid #e0e0e0;
 	text-align: center;
 	font-weight: bold;
-
-
 }
-
-
-
 
 
 #tituloResumenTexto

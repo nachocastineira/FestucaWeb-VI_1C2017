@@ -11,7 +11,6 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/jquery.js"></script>
     <!-- <script src="js/javascript.js"></script> -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" href="img/icono.png">
     <title>Tienda - Festuca</title>
@@ -20,20 +19,15 @@
 <body class="grey lighten-3">
 
 
-
   <!-- Barra de navegacion -->
     <div class="navbar-fixed">
       <nav class="transparent">
-
-          <!-- <a href="index.html" class="brand-logo black-text">[Logo "Festuca"]</a> -->
-
           <ul class="right hide-on-med-and-down">
             <li class="active transparent"><a href="index.html" id="colorTextoBarra">Inicio</a></li>
             <li class="active transparent"><a href="tienda.html" id="colorTextoBarra">Tienda</a></li>
 			      <li class="active transparent"><a href="checkout.html" id="colorTextoBarra">Carrito</a></li>
 			      <li class="active transparent"><a href="registro.html" id="colorTextoBarra">Registro</a></li>
           </ul>
-
       </nav>
     </div>
 
@@ -66,27 +60,22 @@
   </div>
 
 
-</div>
+
 <div class="container" id="contenedorCategorias">
 <h3 id="tituloCategorias">CATEGORÍAS</h3>
 </div>
 
 <div class="row">
-
   <a href="#papeleria"><div class="col s12 m4 l4"> <h5 class="center" id="tituloCadaCategoria">PAPELERIA</h5> <img src="img/cat1.jpg" alt="cat1" id="categorias" class="categorias"></div></a>
   <div class="col s12 m4 l4" > <h5 class="center" id="tituloCadaCategoria">ESCRITURA</h5><img src="img/cat2.jpg" alt="cat2" class="categorias"></div>
   <div class="col s12 m4 l4"> <h5 class="center" id="tituloCadaCategoria">CAJAS</h5><img src="img/cat3.jpg" alt="cat3" class="categorias"></div>
-
 </div>
+
 
 <div class="row">
   <div class="linea-separadora"></div>
 </div>
 
-<!--<div class="row">
-  <div class="linea-separadora-papelera">
-  </div>
-</div>-->
 
 <div class="row papeleria-fondo" id="papeleria">
 	<div class="col s12">
@@ -97,50 +86,51 @@
 </div>
 
 <div class="row" id="principio">
-  <a href="#producto"><img src="img/cat1.jpg" class="imagen-papeleria-seleccion" id="anotador"/></a>
+
+
+<!-- Empiezan los productos de la categoria Papeleria -->
+
+  <a href="#producto"><img src="img/prod1.jpg" class="imagen-papeleria-seleccion" id="anotador"/></a>
   <p class="pie-imagen-anotador">
     Anotador <span class="pie-anotador-cm">10x14cm</span>
-    <!--<img src="img/carrito-popup.png" class="carrito-anotador" />-->
-    <img src="img/ic_shopping_cart_black_24px.svg" class="carrito-anotador" />
-    <!--<label class="label-icon" for="shopping_cart"><i class="material-icons ">search</i></label>
-    <i class="material-icons">close</i>-->
+    <img src="img/add.png" class="carrito-anotador" />
     <p class="monto-anotador">
       $400.50
     </p>
   </p>
-  <img src="img/prod1.jpg" class="imagen-papeleria-seleccion1" />
+
+
+  <img src="img/prod2.jpg" class="imagen-papeleria-seleccion3" />
   <p class="tarjeta-personal">
     Tarjeta Personal
-    <!--<img src="img/carrito-popup.png" class="carrito-tarjeta" />-->
-    <img src="img/ic_shopping_cart_black_24px.svg" class="carrito-tarjeta" />
+    <img src="img/add.png" class="carrito-tarjeta" />
     <p class="monto-tarjeta">
       $400.50
     </p>
   </p>
+
+
   <img src="img/prod3.jpg" class="imagen-papeleria-seleccion2" />
   <p class="sobre">
     Sobre <span class="pie-sobre-cm">10x15cm</span>
-    <!--<img src="img/carrito-popup.png" class="carrito-sobre" />-->
-    <img src="img/ic_shopping_cart_black_24px.svg" class="carrito-sobre" />
+    <img src="img/add.png" class="carrito-sobre" />
     <p class="monto-sobre">
       $400.50
     </p>
   </p>
+
+
   <img src="img/prod4.jpg" class="imagen-papeleria-seleccion3" />
   <p class="calendario">
     Calendario
-    <!--<img src="img/carrito-popup.png" class="calendario-carrito" />-->
-    <img src="img/ic_shopping_cart_black_24px.svg" class="calendario-carrito" />
+    <img src="img/add.png" class="calendario-carrito" />
     <p class="monto-calendario">
       $400.50
     </p>
   </p>
 </div>
 
-<!--<div class="row">
-  <div class="linea-separadora-papelera">
-  </div>
-</div>-->
+
 
 <div class="row papeleria-fondo">
   <div class="col s12">
@@ -152,9 +142,9 @@
 
 <div class="row borde" id="anotador-producto">
   <div class="descripcion-producto" id="producto">
-    <!-- imagen de prueba -->
+
     <img src="img/prod1.jpg" class="imagen-anotador" />
-    <a href="#principio"><img src="img/cerrar.jpg" class="img-cerrar-anotador" /></a>
+    <a href="#principio"><img src="img/close.png" class="img-cerrar-anotador" /></a>
     <p>
       <span class="color-descripcion-anotador">Descripcion: </span> Anotador plantable caratula corazon<br />
       <span class="color-descripcion-anotador">Cantidad de hojas: </span>30 hojas blancas rayadas<br />
