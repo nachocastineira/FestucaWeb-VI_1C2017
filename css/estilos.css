@@ -199,10 +199,9 @@ img.categorias
 }
 
 img.img-cerrar-anotador{
-	width: 4%;
-	margin-left: 95%;
-	margin-right: 5%;
-	margin-top: -80px;
+	width: 35px;
+	text-align: right;
+	align-content: flex-end;
 }
 
 .imagen-papeleria-seleccion{
@@ -348,11 +347,9 @@ h3 .papeleria{
 .color-descripcion-anotador{
 	color:#157d42;
 	font-weight: bold;
-	margin-left: 50%;
 }
 
 .descripcion-semilla{
-	margin-left: 60%;
 }
 
 #anotador-producto{
@@ -368,35 +365,34 @@ h3 .papeleria{
 .anotador-cm{
 	font-weight: normal;
 	font-stretch: semi-condensed;
-	margin-left: 10%;
-	font-size: 45px;
+	font-size: 35px;
 	font-family: sans-serif;
-	margin-top: 7%;
 }
 
 .tamaño-cm{
 	font-size:25px;
 	font-weight: bolder;
-	margin-left: 5px;
-	margin-top: 7%;
 	font-family: sans-serif;
 }
 
 .monto{
 	font-size: 45px;
 	color:#800040;
-	margin-left: 755px;
-	margin-top: -75px;
 }
 
+#anotador{
+	font-weight: normal;
+	font-stretch: semi-condensed;
+	font-size: 45px;
+	font-family: sans-serif;
+
+}
 
 #btnCompra{
 
 	background-color: #157d42;
 	font-size: 18px;
 	color:white;
-	margin-left: 970px;
-	margin-top: -150px;
 }
 
 .img-carrito{
