@@ -20,9 +20,8 @@
 
 .logoIzquierdaBarra
 {
-	margin-top: 4%;
-	width: 50%;
-	height: 50%;
+	width: 36%;
+	height: 36%;
 	margin-right: 9%;
 }
 
@@ -35,6 +34,11 @@ align-self: center;
 align-content: center;
 }
 
+#pruebaCierre{
+	margin: 2%;
+	padding: 2%;
+	size-icon: 6%;
+}
 #bannerQuienesSomos {
 	height: 50%;
 	color:#79511D;
@@ -747,6 +751,11 @@ margin-bottom: 2%;
 div.navbar-fixed
 {
 	background-color: transparent;  /* le doy un transparente a la barra  */
+}
+
+#barraTrans{
+	background-color: transparent;
+	box-shadow: none;
 }
 
 nav.transparent

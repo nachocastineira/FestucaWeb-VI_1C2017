@@ -88,10 +88,16 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $("#anotador").click(function(){
-      $("#anotador-producto").show();
+      $(".imagen-anotador").show();
     });
   });
 
+$(document).ready(function(){
+  $(document).scroll(function() {
+    $("#barraTrans").css("background-color", "silver");
+    $("#barraTrans").css("opacity", "0.8");
+    });
+  });
 
   $(document).ready(function(){
      $('.materialboxed').materialbox();
