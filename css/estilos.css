@@ -223,6 +223,12 @@ img.img-cerrar-anotador{
 	font-weight: bolder;
 }
 
+#anotador{
+	color#000;
+	font-weight: bolder;
+	margin:0%;
+	padding: 0.5%;
+}
 .carrito-anotador{
 	width: 55px;
 	margin-top: 35px;
@@ -370,7 +376,9 @@ h3 .papeleria{
 }
 
 .tamaño-cm{
-	font-size:25px;
+	font-size:20px;
+	margin: 0;
+	padding: 0;
 	font-weight: bolder;
 	font-family: sans-serif;
 }
@@ -380,11 +388,18 @@ h3 .papeleria{
 	color:#800040;
 }
 
+#precio{
+	font-size: 45px;
+	color:#800040;
+	margin: 0%;
+	padding: 1.5%;
+}
 #anotador{
 	font-weight: normal;
 	font-stretch: semi-condensed;
 	font-size: 45px;
 	font-family: sans-serif;
+	padding: 1.5%;
 
 }
 
@@ -393,6 +408,7 @@ h3 .papeleria{
 	background-color: #157d42;
 	font-size: 18px;
 	color:white;
+	padding: 1.5%;
 }
 
 .img-carrito{
