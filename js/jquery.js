@@ -79,6 +79,11 @@ $(document).ready(function(){
       $('.imagen-anotador').show();
       //$("#producto").show();
     });
+
+    $("#pruebaCierre").click(function(){
+      $('#anotador-producto').hide();
+      //$("#producto").show();
+    });
   });
 
   $(document).ready(function(){
@@ -91,7 +96,7 @@ $(document).ready(function(){
   $(document).ready(function(){
      $('.materialboxed').materialbox();
    });
-       
+
 
  // Materialize.toast(message, displayLength, data-position);
  // Materialize.toast('I am a toast!', 800, 'left' ) // 4000 is the duration of the toast
