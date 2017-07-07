@@ -236,6 +236,8 @@ img.img-cerrar-anotador{
 	margin-bottom: -35px;
 }
 
+
+
 .monto-anotador{
 	color:#800040;
 	font-size: 25px;
@@ -636,11 +638,18 @@ footer.page-footer {
 }
 
 
-
-#grillaCamion{
-	padding: 0px;
-	margin: 0px;
+#cajaProductos
+{
+	margin-top: 5%;
+	margin-left: 6%;
+	margin-right: 6%;
 }
+
+#cajaProductosSinResumen
+{
+margin-right: -3%;
+}
+
 
 /*resumen de la compra en checkout */
 
@@ -661,11 +670,19 @@ footer.page-footer {
 	font-weight: bold;
 }
 
+
+
+#resumenDeCompra
+{
+margin-bottom: 2%;
+}
+
+
 #recuadroResumen
 {
 	background-color: white;
 	border: 1px solid black;
-	padding: 1%;
+	padding: 0.5%;
 }
 
 #retiroResumen

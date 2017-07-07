@@ -86,3 +86,12 @@ $(document).ready(function(){
       $("#anotador-producto").show();
     });
   });
+
+
+  $(document).ready(function(){
+     $('.materialboxed').materialbox();
+   });
+       
+
+ // Materialize.toast(message, displayLength, data-position);
+ // Materialize.toast('I am a toast!', 800, 'left' ) // 4000 is the duration of the toast
