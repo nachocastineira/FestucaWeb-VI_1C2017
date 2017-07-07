@@ -210,13 +210,7 @@ img.img-cerrar-anotador{
 	border: 1px solid #000;
 }
 
-.pie-imagen-anotador{
-	color:#000;
-	font-weight: bolder;
-	font-size: 25px;
-	margin-top: -35px;
-	margin-left: 15px;
-}
+
 
 .pie-anotador-cm{
 	color#000;
@@ -224,26 +218,82 @@ img.img-cerrar-anotador{
 }
 
 #anotador{
-	color#000;
+	color #000;
 	font-weight: bolder;
 	margin:0%;
 	padding: 0.5%;
 }
-.carrito-anotador{
+
+#prodColumna2
+{
+	color #000;
+	font-weight: bolder;
+	margin-right: 0;
+	padding: 1.5%;
+}
+
+
+.pie-imagen-col1{
+	color:#000;
+	font-weight: bolder;
+	font-size: 25px;
+	margin-top: -35px;
+	margin-left: 1%;;
+}
+
+
+.pie-imagen-col2{
+	color:#000;
+	font-weight: bolder;
+	font-size: 25px;
+	margin-top: -35px;
+	margin-left: 3%;;
+}
+
+
+.monto-col1{
+	color:#800040;
+	font-size: 25px;
+	margin-left: 1%;
+	margin-top: -2%;
+}
+
+.monto-col2{
+	color:#800040;
+	font-size: 25px;
+	margin-left: 3%;
+	margin-top: -2%;
+}
+
+.carrito-p1{
 	width: 55px;
-	margin-top: 35px;
-	margin-left: 175px;
+	margin-top: 6%;
+	margin-left: 21%;
+	margin-bottom: -35px;
+}
+
+.carrito-p2{
+	width: 55px;
+	margin-top: 6%;
+	margin-left: 25%;
+	margin-bottom: -35px;
+}
+
+.carrito-p3{
+	width: 55px;
+	margin-top: 6%;
+	margin-left: 26%;
+	margin-bottom: -35px;
+}
+
+.carrito-p4{
+	width: 55px;
+	margin-top: 6%;
+	margin-left: 34%;
 	margin-bottom: -35px;
 }
 
 
-
-.monto-anotador{
-	color:#800040;
-	font-size: 25px;
-	margin-left: 15px;
-	margin-top: -25px;
-}
 
 .imagen-papeleria-seleccion1{
 	float: right;
@@ -261,7 +311,7 @@ img.img-cerrar-anotador{
 	margin-left:885px;
 }
 
-.monto-tarjeta{
+/*.monto-tarjeta{
 	color:#800040;
 	font-size: 25px;
 	margin-left: 885px;
@@ -273,7 +323,7 @@ img.img-cerrar-anotador{
 	margin-top: 45px;
 	margin-left: 205px;
 	margin-bottom: -35px;
-}
+}*/
 
 .imagen-papeleria-seleccion2{
 	margin-top: 80px;
@@ -298,7 +348,7 @@ img.img-cerrar-anotador{
 
 
 
-.carrito-sobre{
+/*.carrito-sobre{
 
 width: 55px;
 	margin-top: 25px;
@@ -312,7 +362,7 @@ width: 55px;
 	font-size: 25px;
 	margin-left: 15px;
 	margin-top: -25px;
-}
+}*/
 
 .imagen-papeleria-seleccion3{
 	float: right;
@@ -332,7 +382,7 @@ width: 55px;
 	margin-left: 885px;
 }
 
-.calendario-carrito{
+/*.calendario-carrito{
 	width: 55px;
 	margin-top: 47px;
 	margin-left: 271px;
@@ -345,7 +395,7 @@ width: 55px;
 	margin-left: 885px;
 	margin-top: -25px;
 
-}
+}*/
 
 h3 .papeleria{
 	font-size:35px;
@@ -370,7 +420,7 @@ h3 .papeleria{
 	border:5px solid #804000;
 }
 
-.anotador-cm{
+/*.anotador-cm{
 	font-weight: normal;
 	font-stretch: semi-condensed;
 	font-size: 35px;
@@ -383,7 +433,7 @@ h3 .papeleria{
 	padding: 0;
 	font-weight: bolder;
 	font-family: sans-serif;
-}
+}*/
 
 .monto{
 	font-size: 45px;
@@ -450,6 +500,16 @@ h3 .papeleria{
 .img-opacas{
 	display: none;
 }
+
+#contenedorDeProductos
+{
+margin-left: 8%;
+margin-right: -12%;
+}
+
+
+
+
 
 #cus-qs
 {
