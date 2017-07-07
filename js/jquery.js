@@ -89,6 +89,23 @@ $(document).ready(function(){
   });
 
   $(document).ready(function(){
+  $(document).scroll(function() {
+    var s = $(window).scrollTop();
+    if(s < 10) {
+      $("#barraTrans").css("background-color", "transparent");
+      $("#barraTrans").css("box-shadow", "none");
+    }
+  else {
+    $("#barraTrans").css("background-color", "silver");
+    $("#barraTrans").css("opacity", "0.8");
+  }
+    });
+  });
+
+
+
+
+  $(document).ready(function(){
     $("#anotador").click(function(){
       $("#anotador-producto").show();
     });
