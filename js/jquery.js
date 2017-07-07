@@ -79,25 +79,27 @@ $(document).ready(function(){
       $('.imagen-anotador').show();
       //$("#producto").show();
     });
-
-    $("#pruebaCierre").click(function(){
-      $('#anotador-producto').hide();
-      //$("#producto").show();
-    });
   });
 
   $(document).ready(function(){
-    $("#anotador").click(function(){
-      $(".imagen-anotador").show();
-    });
-  });
-
-$(document).ready(function(){
   $(document).scroll(function() {
     $("#barraTrans").css("background-color", "silver");
     $("#barraTrans").css("opacity", "0.8");
     });
   });
+
+  $(document).ready(function(){
+    $("#anotador").click(function(){
+      $("#anotador-producto").show();
+    });
+  });
+
+  $(document).ready(function(){
+    $("#pruebaCierre").click(function(){
+      $("#anotador-producto").hide();
+    });
+  });
+
 
   $(document).ready(function(){
      $('.materialboxed').materialbox();
