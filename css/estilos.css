@@ -814,3 +814,38 @@ nav.transparent
   background-color: rgba(0,0,0,0);
 	box-shadow: none;
 }*/
+
+
+
+
+body{
+  margin:0;
+  padding:0;
+  height:1000px;
+}
+.black{
+  position:fixed;
+  top:0;
+  background:#333;
+  width:100%;
+  height:50px;
+
+}
+.black ul{
+  list-style-type:none;
+  padding:0;
+}
+
+.black ul li{
+  display:inline-block;
+  width:100px;
+  color:red;
+}
+
+.blue{
+  position:fixed;
+  top:0;
+  background:blue;
+  width:100%;
+  height:50px;
+}
