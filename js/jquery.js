@@ -94,10 +94,15 @@ $(document).ready(function(){
     if(s < 10) {
       $("#barraTrans").css("background-color", "transparent");
       $("#barraTrans").css("box-shadow", "none");
+      $("#logoIzquierdaInicio").css("width", "50%");
+      $("#logoIzquierdaInicio").css("height", "50%");
+
     }
   else {
     $("#barraTrans").css("background-color", "silver");
     $("#barraTrans").css("opacity", "0.8");
+    // $("#logoIzquierdaInicio").css("width", "36%");
+    // $("#logoIzquierdaInicio").css("heigt", "36%");
   }
     });
   });
