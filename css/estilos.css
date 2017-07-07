@@ -4,23 +4,6 @@
 	width: 100%;
 }
 
-/*.festucafondo{
-	width: 660%;
-	position: relative;
-	max-width: 1662px;
-	margin-right: -13px;
-	margin-left: -13px;
-	margin-top: -15px;
-	margin-bottom: -171px;
-	/*margin-right: -5px;*/
-	/*min-width: 100px;}*/
-
-/*
-#festuca-centro{
-	margin-left: 600px;
-
-}*/
-
 .producto-sembrable{
 	margin-left: 600px;
 	margin-top: -25px;
@@ -69,7 +52,6 @@ margin-left: -4%;
 img.imagen-fondo
 {
  float: left;
-
 }
 
 img.imagen-footer
@@ -106,7 +88,6 @@ img.icono-footer
  input#email.validate
  {
 	 color: white;
-
  }
 
 /* linea debajo con focus */
@@ -207,7 +188,9 @@ img.img-cerrar-anotador{
 .imagen-papeleria-seleccion{
 	width: 450px;
 	margin-left: 15px;
+	margin-right: 15px;
 	border: 1px solid #000;
+	margin-bottom: 2%;
 }
 
 
@@ -311,19 +294,7 @@ img.img-cerrar-anotador{
 	margin-left:885px;
 }
 
-/*.monto-tarjeta{
-	color:#800040;
-	font-size: 25px;
-	margin-left: 885px;
-	margin-top: -25px;
-}
 
-.carrito-tarjeta{
-	width: 55px;
-	margin-top: 45px;
-	margin-left: 205px;
-	margin-bottom: -35px;
-}*/
 
 .imagen-papeleria-seleccion2{
 	margin-top: 80px;
@@ -348,22 +319,6 @@ img.img-cerrar-anotador{
 
 
 
-/*.carrito-sobre{
-
-width: 55px;
-	margin-top: 25px;
-	margin-left: 214px;
-	margin-bottom: -28px;
-}
-
-
-.monto-sobre{
-	color:#800040;
-	font-size: 25px;
-	margin-left: 15px;
-	margin-top: -25px;
-}*/
-
 .imagen-papeleria-seleccion3{
 	float: right;
 	margin-top: -442px;
@@ -382,20 +337,7 @@ width: 55px;
 	margin-left: 885px;
 }
 
-/*.calendario-carrito{
-	width: 55px;
-	margin-top: 47px;
-	margin-left: 271px;
-	margin-bottom: -25px;
-}
 
-.monto-calendario{
-	color:#800040;
-	font-size: 25px;
-	margin-left: 885px;
-	margin-top: -25px;
-
-}*/
 
 h3 .papeleria{
 	font-size:35px;
@@ -420,20 +362,6 @@ h3 .papeleria{
 	border:5px solid #804000;
 }
 
-/*.anotador-cm{
-	font-weight: normal;
-	font-stretch: semi-condensed;
-	font-size: 35px;
-	font-family: sans-serif;
-}
-
-.tamaño-cm{
-	font-size:20px;
-	margin: 0;
-	padding: 0;
-	font-weight: bolder;
-	font-family: sans-serif;
-}*/
 
 .monto{
 	font-size: 45px;
@@ -442,10 +370,13 @@ h3 .papeleria{
 
 #precio{
 	font-size: 45px;
+	font-weight: bold;
+	font-stretch: condensed;
 	color:#800040;
-	margin: 0%;
+	margin: 0 auto;
 	padding: 1.5%;
 }
+
 #anotador{
 	font-weight: normal;
 	font-stretch: semi-condensed;
@@ -460,7 +391,7 @@ h3 .papeleria{
 	background-color: #157d42;
 	font-size: 18px;
 	color:white;
-	padding: 1.5%;
+	margin-bottom: 3%;
 }
 
 .img-carrito{
@@ -675,6 +606,17 @@ footer.page-footer {
 }
 
 
+.tituloCat
+{
+	margin-top: 3%;
+	width: 30%;
+	margin-right: 35%;
+	margin-left: 35%;
+}
+
+
+
+
 /*PARTE DE ESTILOS DEL CHECKOUT*/
 
 #buscadorCheckout {
@@ -879,19 +821,6 @@ nav.transparent
 		color: green;
 		font-weight: bolder;
 	}
-/*.navbar-fixed active{*/
-	/*background-color:#00c853;*/
-	/*border-style: none;
-	box-shadow: none;
-}*/
-
-
-/*
-	.transparentBG {
-  background-color: rgba(0,0,0,0);
-	box-shadow: none;
-}*/
-
 
 
 
